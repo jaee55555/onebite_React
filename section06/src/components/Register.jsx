@@ -27,7 +27,7 @@ const Register = () =>{
 
     //통합 이벤트 핸들러
     const onChange = (e) =>{
-        countRef.current++;
+        // countRef.current++;
         console.log(countRef.current);
         // console.log(e.target.name, e.target.value);
         setInput({
